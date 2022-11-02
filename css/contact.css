@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(10, 186, 202);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar{
+    height: 70px;
+    width: 75%;
+    margin: 20px auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.nav_btn a{
+    text-decoration: none;
+    background: black;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.nav_btn a:hover{
+    background: yellow;
+    color: black;
+    transition: 0.2s all ease-in-out;
+}
+
+
+.container{
+    width: 75%;
+    height: 80vh;
+    background: #b8cbcb;
+    box-shadow: -20px 20px 30px rgb(14, 80, 92);
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.contact_holders{
+    width: 70%;
+    height: 17vh;
+    margin: auto;
+    border-radius: 5px;
+    background: rgb(146, 145, 145);
+    box-shadow: -3px 3px 10px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact_holders:hover{
+    box-shadow: -1px 1px 10px black;
+}
+
+.phone_container{
+    margin-top: 30px;
+}
+
+.facebook_container{
+    margin-bottom: 30px;
+}
+
+div a{
+    background-color: #b8cbcb00;
+    width: 100%;
+    text-decoration: none;
+}
+
+.img_container{
+    height: 90%;
+    width: 40%;
+    background: none;
+    border-right: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_container{
+    height: 90%;
+    width: 40%;
+    background: rgb(146, 145, 145);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.text_container h1{
+    background: rgb(146, 145, 145);
+}
+
+div img{
+    height: 100%;
+    background: #b8cbcb00;
+
+}
+
+
+
+
+
+
+
